@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт под ключ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            <a class="header__logo" href="#">
+                <img src="images/logo.png" alt="logo">
+            </a>
+           <ul class="header__menu">
+                <li class="header__menu-submenu">
+                    <div class="open-submenu">
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <a href="#">МЕНЮ</a>
+                    <ul class="submenu">
+                        <li><a href="#">УСЛУГИ</a></li>
+                        <li><a href="#">СТАТЬИ</a></li>
+                        <li><a href="#">ВАКАНСИИ</a></li>
+                        <li><a href="#">ФРАНШИЗА</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">ПОРТФОЛИО</a></li>
+                <li><a href="#">ЦЕНЫ</a></li>
+                <li><a href="#">СХЕМА РАБОТЫ</a></li>
+                <li><a href="#">ОТЗЫВЫ</a></li>
+                <li><a href="#">КОНТАКТЫ</a></li>
+                <li><a href="#">ГАРАНТИЯ</a></li>
+           </ul>
+           <div class="open-mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+           </div>
+           <button class="header__btn">ОБРАТНЫЙ ЗВОНОК</button>
+        </header>
+        <section class="page-main">
+            <div class="container">
+                <div class="page-main-inner">
+                    <div class="block-text">
+                        <h1 class="page-main__title">Ремонт под ключ от 2900&nbsp;руб/&NoBreak;м&#xB2;.</h1>
+                        <p class="page-main__subtitle">При заказе ремонта делаем <span>дизайн&NoBreak;-&NoBreak;проект</span> в подарок</p>
+                        <ul class="page-main__list">
+                            <li>
+                                <img class="page-main__list-icon" src="images/icon1.png" alt="icon">
+                                <p class="page-main__list-text">Бесплатный выезд в день обращения</p>
+                            </li>
+                            <li>
+                                <img class="page-main__list-icon" src="images/icon2.png" alt="icon">
+                                <p class="page-main__list-text">Гарантия на работу до 5 лет</p>
+                            </li>
+                            <li>
+                                <img class="page-main__list-icon" src="images/icon3.png" alt="icon">
+                                <p class="page-main__list-text">Жесткое соблюдение сроков</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="block-calc">
+                        <h3 class="block-calc__title">Рассчитайте стоимость ремонта</h3>
+                        <form action="#">
+                            <p class="block-calc__text">ПЛОЩАДЬ КВАРТИРЫ:</p>   
+                            <div class="slider">
+                                <p class="slider__value-text">68 м&#xB2;</p>
+                                <div class="slider__thumb"></div>
+                                <div class="slider__progress"></div>
+                            </div>
+                            <p class="block-calc__text">ТИП ЖИЛЬЯ:</p>
+                            <div class="input-inner">
+                                <label class="input-radio" for="type1">
+                                    <input type="radio" id="type1" name="typeHousing" value="secondary housing">
+                                    <span></span>
+                                    <span class="input-radio__text input-radio__text_wide">Вторичное жилье</span> 
+                                </label>  
+                                <label class="input-radio" for="type2">
+                                    <input type="radio" id="type2" name="typeHousing" value="new building">
+                                    <span></span>
+                                    <span class="input-radio__text input-radio__text_wide">Новостройка</span> 
+                                </label>
+                                <label class="input-radio" for="type3">
+                                    <input type="radio" id="type3" name="typeHousing" value="office">
+                                    <span></span>
+                                    <span class="input-radio__text input-radio__text_wide">Офис</span>                                
+                                </label>
+                                
+                                <label class="label-radio" ></label>
+                            </div>
+                            <p class="block-calc__text">КОЛИЧЕСТВО КОМНАТ:</p>
+                            <div class="input-inner">
+                                <label class="input-radio" for="number1">
+                                    <input type="radio" id="number1" name="numberRooms" value="1">
+                                    <span></span>
+                                    <span class="input-radio__text">1</span>
+                                </label>
+                                <label class="input-radio" for="number2">
+                                    <input type="radio" id="number2" name="numberRooms" value="2">
+                                    <span></span>
+                                    <span class="input-radio__text">2</span>
+                                </label>
+                                <label class="input-radio" for="number3">
+                                    <input type="radio" id="number3" name="numberRooms" value="3">
+                                    <span></span>
+                                    <span class="input-radio__text">3+</span>
+                                </label> 
+                                <label class="input-radio" for="number4">
+                                    <input type="radio" id="number4" name="numberRooms" value="studio apartment">
+                                    <span></span>
+                                    <span class="input-radio__text">Студия</span>                                
+                                </label> 
+                            </div>
+                            <button class="block-calc__btn" type="submit">ОТПРАВИТЬ</button>
+                        </form>
+                    </div>
+                    <div class="page-main__img">
+                        <img src="images/page_main_img.png" alt="room">
+                    </div>
+                    <button class="page-main__btn">
+                        <img src="./images/arrow.png" alt="arrow">
+                        SCROLL
+                    </button>
+                </div>               
+            </div>
+        </section>
+    </div>
+    <div class="mobile-menu">
+        <div class="mobile-menu-inner">
+            <a class="mobile-menu__logo" href="#"><img src="./images/logo.png" alt="logo"></a> 
+            <div class="close-mobile-menu">
+                <span></span>
+                <span></span>
+            </div>  
+        </div>
+             
+        <ul class="mobile-menu__list">
+            <li class="mobile-menu__list-submenu">
+                <div class="open-submenu">
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="#">МЕНЮ</a>
+                <ul class="submenu">
+                    <li><a href="#">УСЛУГИ</a></li>
+                    <li><a href="#">СТАТЬИ</a></li>
+                    <li><a href="#">ВАКАНСИИ</a></li>
+                    <li><a href="#">ФРАНШИЗА</a></li>
+                </ul>
+            </li>
+            <li><a href="#">ПОРТФОЛИО</a></li>
+            <li><a href="#">ЦЕНЫ</a></li>
+            <li><a href="#">СХЕМА РАБОТЫ</a></li>
+            <li><a href="#">ОТЗЫВЫ</a></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
+            <li><a href="#">ГАРАНТИЯ</a></li>
+        </ul>
+    </div>
+    <div class="empti"></div>
+    <script src="./js/main.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>
